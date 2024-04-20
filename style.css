@@ -1,0 +1,74 @@
+body{
+    background-color: #f8f9fa;
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.water-color{
+    color: #3286a7;
+
+}
+.call-logo{
+    color: #7e7f80;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid #7e7f80;
+}
+
+.footer-color{
+    background-color: #3286a7;
+}
+
+.back-water-color{
+    color: white;
+    background-color: #3286a7;
+}
+.back-not-color{
+    color: white;
+    background-color: #7e7f80;
+}
+
+.back-water-color:hover{
+    color: white;
+    background-color: #549fbd;
+}
+
+
+
+.card-title{
+    font-family: sans-serif;
+    color: rgb(141, 144, 146);
+}
+
+.card-count{
+    font-family: Helvetica;
+    color: rgb(148, 148, 148);
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.price-button{
+    width: 50%;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 30%;
+}
+.tuman-btn{
+    width: 200px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+    background-color: #549fbd;
+}
+
+.sub-data{
+    font-size: 22px;
+    color: rgb(103, 103, 103);
+}
