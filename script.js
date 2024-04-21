@@ -2,7 +2,7 @@ let datas = {
     mineralifesuvi : [
         {
             rasm: "./suv-idishi.jpg",
-            width: 150,
+            width: 160,
             status: "Mavjud!",
             title: "Minera Life Suvi",
             count: 19,
