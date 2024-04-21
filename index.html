@@ -33,22 +33,20 @@
   </div>
 </nav>
 
-<div class="container mt-5">
-  <nav class="navbar bg-light justify-content-center">
-    <ul  style="display: flex; list-style: none; gap: 10px">
-      <li class="nav-item">
-        <button class="nav-link water-color" id="minerasuvi" onclick="add_items('suv')">Minera suvi</a> 
-      </li>
-      <div style="width: 1px; height: 30px; background-color: #7e7f80;"></div>
-      <li class="nav-item">
-        <button class="nav-link" id="nasosi" onclick="add_items('nasos')">Suv nasos</a> 
-      </li>
-      <div style="width: 1px; height: 30px; background-color: #7e7f80;"></div>
-      <li class="nav-item">
-        <button class="nav-link" id="kulleri" onclick="add_items('kuller')">Kuller</a>
-      </li>
-    </ul>
-  </nav>
+
+  <ul class="pagination justify-content-center" style="margin:20px 0">
+    <li class="page-item">
+      <button class="nav-link water-color border-bottom border-5" id="minerasuvi" onclick="add_items('suv')">Minera suvi</a>
+    </li>
+    <li class="page-item mx-2">
+      <button class="nav-link border-bottom border-5" id="nasosi" onclick="add_items('nasos')">Suv nasos</a> 
+    </li>
+    <li class="page-item">
+      <button class="nav-link border-bottom border-5" id="kulleri" onclick="add_items('kuller')">Kuller</a>
+    </li>
+  </ul>
+
+<div class="container">
   
     <div class="row">
 

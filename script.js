@@ -123,8 +123,12 @@ function add_items(flag){
         
         console.log("suv")
         suv_btn.style.color = "#3286a7"
+        suv_btn.style.padding = "5px 0"
+
         kuller_btn.style.color = "#7a7c80"
+        kuller_btn.style.padding = "0"
         nasos_btn.style.color = "#7a7c80"
+        nasos_btn.style.padding = "0"
 
         let s = 0;
         datas.mineralifesuvi.forEach(item => {
@@ -206,10 +210,14 @@ function add_items(flag){
     else if (flag == "nasos") {
 
         console.log("nasos")
-  
+
         nasos_btn.style.color = "#3286a7"
-        suv_btn.style.color = "#7a7c80"
+        nasos_btn.style.padding = "5px 0"
+
         kuller_btn.style.color = "#7a7c80"
+        kuller_btn.style.padding = "0"
+        suv_btn.style.color = "#7a7c80"
+        suv_btn.style.padding = "0"
 
 
         let s = 0;
@@ -312,8 +320,12 @@ function add_items(flag){
     else {
         console.log("kuller")
         kuller_btn.style.color = "#3286a7"
+        kuller_btn.style.padding = "5px 0"
+
         suv_btn.style.color = "#7a7c80"
+        suv_btn.style.padding = "0"
         nasos_btn.style.color = "#7a7c80"
+        nasos_btn.style.padding = "0"
 
         let s = 0;
         datas.kuller.forEach(item => {
