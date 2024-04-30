@@ -10,6 +10,7 @@ let datas = {
             price: "17 000",
 
         },
+
         {
             rasm: "./10lsuv.PNG",
             width: 210,
@@ -78,7 +79,7 @@ let datas = {
             title: "Kuchli qoʻl mexanik suv nasosi",
             description: `• To'plamga quyidagilar kiradi: 
             1 nasos, 3 ta suv quvurlari, 1 vilkali chiqish trubkasi, korpus materiali...`,
-            price: "40 000",
+            price: "50 000",
             more_data: [
             `• To'plamga quyidagilar kiradi: 
             1 nasos, 3 ta suv quvurlari, 1 vilkali chiqish trubkasi, korpus materiali: oziq-ovqat uchun moʻljallangan polipropilen suv dispanseri, 5-10, 10-20 liter`,
@@ -93,7 +94,7 @@ let datas = {
             count: 19,
             description: "19L Suv baklashkasi uchun tutgich barcha hollarda qoʻllash mumkin",
             ph: 7.1,
-            price: "25 000",
+            price: "30 000",
             more_data: []
         },
     ],
